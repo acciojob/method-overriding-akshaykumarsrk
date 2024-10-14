@@ -4,8 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         B b = new B();
-        String res = b.meth();
-        System.out.println(res);
+        System.out.println(b.meth());
+
+        B b2 = new B();
+        System.out.println(b2.meth());
     }
 
     public static class A {
